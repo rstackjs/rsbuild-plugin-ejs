@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-plugin-ejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-ejs",
   "license": "MIT",
   "type": "module",
