@@ -21,7 +21,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginEjs } from "rsbuild-plugin-ejs";
+import { pluginEjs } from 'rsbuild-plugin-ejs';
 
 export default {
   plugins: [pluginEjs()],
@@ -37,7 +37,7 @@ For example, first create a `src/index.ejs` file, and point to that file using `
 ```ts title="rsbuild.config.ts"
 export default {
   html: {
-    template: "./src/index.ejs",
+    template: './src/index.ejs',
   },
 };
 ```
@@ -74,7 +74,7 @@ const defaultOptions = {
 ```ts
 pluginEjs({
   ejsOptions: {
-    delimiter: "|",
+    delimiter: '|',
   },
 });
 ```
