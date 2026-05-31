@@ -12,8 +12,8 @@ importers:
         specifier: ^3.1.5
         version: 3.1.5
       ejs:
-        specifier: ^5.0.2
-        version: 5.0.2
+        specifier: ^6.0.1
+        version: 6.0.1
     devDependencies:
       '@playwright/test':
         specifier: ^1.60.0
@@ -347,8 +347,8 @@ packages:
   '@types/node@24.12.4':
     resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
 
-  ejs@5.0.2:
-    resolution: {integrity: sha512-IpbUaI/CAW86l3f+T8zN0iggSc0LmMZLcIW5eRVStLVNCoTXkE0YlncbbH50fp8Cl6zHIky0sW2uUbhBqGw0Jw==}
+  ejs@6.0.1:
+    resolution: {integrity: sha512-UaaM14yby8U3k02ihS1Bmj5Kz2d7CCQM1scxpgs4Mhkq8F1wR2gl3+Ts4h5Ne4Mnt7M9m4Dw7jsuMr3+xO4vZA==}
     engines: {node: '>=0.12.18'}
     hasBin: true
 
@@ -664,7 +664,7 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  ejs@5.0.2: {}
+  ejs@6.0.1: {}
 
   fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
